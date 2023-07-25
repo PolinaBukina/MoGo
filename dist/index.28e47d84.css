@@ -1,0 +1,214 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap";
+.banner {
+  background-color: #0000;
+  background-image: linear-gradient(#252b49aa, #252b49aa), url("img.5ed236dd.png"), none, none;
+  background-position: 0 0, 0 0, center, 0 0;
+  background-repeat: repeat, repeat, repeat, no-repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll, scroll, scroll;
+  background-origin: padding-box, padding-box, padding-box, padding-box;
+  background-clip: border-box, border-box, border-box, border-box;
+  height: 750px;
+}
+
+.banner-wrapper {
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.banner-wrapper__header {
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 2em;
+  font-family: Raleway;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 75px;
+}
+
+.banner-wrapper__paragraph {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 2em;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.banner-wrapper input {
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+  background: #ff4343;
+  border: none;
+  width: 15em;
+  height: 80px;
+  margin: 5em auto 0;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.banner-wrapper input:hover {
+  background-color: #e71414;
+}
+
+.banner-wrapper input:active {
+  background-color: #ff4343;
+  box-shadow: 4px 4px 30px #ff4343;
+}
+
+.features {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: block;
+}
+
+.feature-blocks {
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin-bottom: 6em;
+  display: flex;
+}
+
+.feature-blocks .feature-block {
+  justify-content: center;
+  width: 30%;
+}
+
+.feature-blocks .feature-block img {
+  margin: 6em auto 0;
+  display: block;
+}
+
+.feature-blocks .feature-block__header {
+  letter-spacing: 0;
+  text-align: center;
+  color: #2d3033;
+  margin-top: 2em;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.feature-blocks .feature-block__paragraph {
+  letter-spacing: 0;
+  text-align: center;
+  color: #6c7279;
+  margin-top: 2em;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.works-photos {
+  flex-flow: wrap;
+  display: flex;
+}
+
+.works-photos__photo {
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  width: 25%;
+}
+
+.works-photos img:hover {
+  cursor: pointer;
+  background: linear-gradient(#ff4343cc, #ff4343cc);
+}
+
+.ourteam {
+  margin-top: 6em;
+}
+
+.our-team {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.our-team__worker {
+  padding: 0 1.5em;
+}
+
+.our-team__worker .worker__img {
+  width: 100%;
+}
+
+.our-team__worker .worker__header {
+  letter-spacing: 0;
+  text-align: left;
+  color: #2d3033;
+  margin-top: 1.5em;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.our-team__worker .worker__header3 {
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ff4343;
+  margin-top: .5em;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.our-team__worker .worker__paragraph {
+  letter-spacing: 0;
+  text-align: left;
+  color: #6c7279;
+  margin-top: 1em;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.our-team__worker .worker__icons {
+  color: #c6cbcd;
+  flex-direction: row;
+  margin-top: 2em;
+  font-size: 18px;
+  display: flex;
+}
+
+.our-team__worker .worker__icons i {
+  border: 1px solid #c6cbcd;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 39px;
+  height: 39px;
+  margin: .1em;
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.28e47d84.css.map */
